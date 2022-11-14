@@ -31,9 +31,16 @@ s = {1,3,5,9,11,13,17,23,29}
 print(type(s))
 tup = (1,3,5,9,11,13,17,23,29)
 print(type(tup))
-
 str = 'Harshita Raghav'
 print(type(str))
 
 print(list(range(10,20)))
 print( tuple(range(100,110)))
+type(range(10))
+
+#dictionary-----------------
+d = {'dee':'redmi', 'mad':'oneplus', 'rohit':'iphone'}
+print(d)
+print(d.keys())
+print(d.values())
+print(d.get('dee'))
